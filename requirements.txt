@@ -1,0 +1,9 @@
+# AnuranCall ships with zero third-party dependencies — anurancall.py imports
+# only the Python standard library (argparse, json, os, sys, time, statistics,
+# datetime, pathlib, uuid, math, dataclasses, typing).
+#
+# This file exists to declare the dev-only test runner. The suite is written
+# with unittest, so `python3 -m unittest discover tests` needs no packages at
+# all; pytest is listed so `python3 -m pytest tests` also works on a clean
+# machine.
+pytest>=8.0,<10
